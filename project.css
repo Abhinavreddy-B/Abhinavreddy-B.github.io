@@ -1,0 +1,41 @@
+#ProjectList h1 {
+    color: #e74c3c;
+    font-weight: 400;
+    font-size: large;
+}
+
+.Project-text a {
+    background-color: rgba(116, 55, 146, 0.745);
+    color: white;
+    padding: 0 1vw;
+    border-radius: 0.25vw;
+    box-sizing: border-box;
+    backdrop-filter: blur(3px);
+    margin: 1vw;
+    /* box-shadow: 1vw 0vw 1vw 0vw rgba(140, 140, 140, 0.563); */
+}
+
+@media only screen and (min-width: 769px) {
+    .Project-text {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: all 1s ease 0s;
+        background-color: #ffffffaa;
+        backdrop-filter: blur(2px);
+    }
+    
+    .Project-text:hover {
+        left: 0;
+    }
+    
+    .Project-parent {
+        overflow: hidden;
+    }
+    
+    .Project-img:hover + .Project-text {
+        left: 0;
+        z-index: 10;
+    }
+    
+  }

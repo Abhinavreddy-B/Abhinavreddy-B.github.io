@@ -1,0 +1,158 @@
+.main {
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    user-select: none;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: linear-gradient(to bottom, #ffffff00,#ffffffcc), url('https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000');
+}
+
+/* 
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+
+.Iam {
+    font: normal 6vw/7vw Montserrat, sans-serif;
+    color: #999;
+}
+
+.Iam p {
+    height: 7vw;
+    float: left;
+}
+
+.Iam .Left-b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 7vw;
+    text-align: right;
+}
+
+.Iam .Right-b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 7vw;
+}
+
+.Iam .innerIam {
+    display: inline-block;
+    color: #e74c3c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    /*animation*/
+    -webkit-animation: move 5s;
+    -moz-animation: move 5s;
+    -ms-animation: move 5s;
+    -o-animation: move 5s;
+    animation: move 5s;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    /*animation-delay*/
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+@keyframes move {
+    0% {
+        top: 0vw;
+    }
+    20% {
+        top: -7vw;
+    }
+    40% {
+        top: -14vw;
+    }
+    60% {
+        top: -21vw;
+    }
+    80% {
+        top: -28vw;
+    }
+}
+
+@-webkit-keyframes move {
+    0% {
+        top: 0vw;
+    }
+    20% {
+        top: -7vw;
+    }
+    40% {
+        top: -14vw;
+    }
+    60% {
+        top: -21vw;
+    }
+    80% {
+        top: -28vw;
+    }
+}
+
+@-moz-keyframes move {
+    0% {
+        top: 0vw;
+    }
+    20% {
+        top: -7vw;
+    }
+    40% {
+        top: -14vw;
+    }
+    60% {
+        top: -21vw;
+    }
+    80% {
+        top: -28vw;
+    }
+}
+
+@-o-keyframes move {
+    0% {
+        top: 0vw;
+    }
+    20% {
+        top: -7vw;
+    }
+    40% {
+        top: -14vw;
+    }
+    60% {
+        top: -21vw;
+    }
+    80% {
+        top: -28vw;
+    }
+}
+
+@keyframes move {
+    0% {
+        top: 0vw;
+    }
+    20% {
+        top: -7vw;
+    }
+    40% {
+        top: -14vw;
+    }
+    60% {
+        top: -21vw;
+    }
+    80% {
+        top: -28vw;
+    }
+}
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="xl:hidden">
+        <div id="menuToggle">
+            <input type="checkbox" id="menuCheckBox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="#Home" onclick="navClick()">
+                    <li>Home</li>
+                </a>
+                <a href="#About" onclick="navClick()">
+                    <li>About</li>
+                </a>
+                <a href="#Skills" onclick="navClick()">
+                    <li>Skills</li>
+                </a>
+                <a href="#Projects" onclick="navClick()">
+                    <li>Projects</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <nav class="hidden xl:block p-2 border-box fixed w-full z-20"  id="normal-nav">
+        <ul class="flex justify-end space-x-8">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+        </ul>
+    </nav>
+    <div class="main flex justify-center lg:h-full h-1/2 md:h-3/4" id="Home">
+        <div class="Iam pt-48">
+            <b class="Left-b">
+                <div class="innerIam">
+                    printf("<br />
+                    cout
+                    <<"<br />
+                    console.log("<br />
+                    &lt;h1&gt;<br />
+                    echo "
+                </div>
+            </b>
+            <p>Hello World</p>
+            <b class="Right-b">
+                <div class="innerIam">
+                    ");<br />
+                    ";<br />
+                    ")<br />
+                    &lt;/h1&gt;<br />
+                    "
+                </div>
+            </b>
+        </div>
+    </div>
+    <div class="flex justify-center pt-10 border-box min-h-full items-center" id="About">
+        <div class="text-center w-3/5">
+            <h1 class="text-[#e74c3c] text-4xl font-semibold w-full">
+                Welcome !
+            </h1>
+            <div class="content-center pt-2 text-xl font-light">
+                <h2 class="text-[#e74c3c] text-2xl lg:pl-3 pt-28 font-light w-full text-left">
+                    I'm Abhinav Reddy
+                </h2>
+                <img src="./my_photo.jpg" class="float-right lg:w-1/2 rounded-lg m-4">
+                A 19 year old student, pursuing my B.Tech. degree in Computer Science and Engineering from IIIT
+                Hyderabad.
+                <br>
+                <br>
+                .......An experience-less and enthusiastic software developer.
+            </div>
+        </div>
+    </div>
+    <div class="pt-10 min-h-full px-3 w-full text-center" id="Skills">
+        <h1 class="text-[#e74c3c] text-4xl font-semibold w-full">
+            What I Know
+        </h1>
+        <div class="flex justify-center w-full items-center flex-wrap" id="SkillsList">
+
+        </div>
+    </div>
+    <div id="Projects" class="min-h-full w-full pt-10 px-3 text-center">
+        <h1 class="text-[#e74c3c] text-4xl font-semibold w-full">
+            My Work
+        </h1>
+        <div class="flex justify-center w-full items-center flex-wrap pt-10" id="ProjectList">
+        </div>
+    </div>
+</body>
+
+</html>
