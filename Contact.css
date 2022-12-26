@@ -1,0 +1,4 @@
+#Contact li a:hover {
+    color: tomato;
+    transition: 0.25s;
+}

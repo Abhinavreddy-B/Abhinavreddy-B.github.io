@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="project.css">
-    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
+    <script src="./tailwind.js"></script>
+    <script src="https://kit.fontawesome.com/7a43ca01c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./Contact.css">
 </head>
 
 <body>
@@ -35,6 +38,9 @@
                 <a href="#Projects" onclick="navClick()">
                     <li>Projects</li>
                 </a>
+                <a href="#Contact" onclick="navClick()">
+                    <li>Contact</li>
+                </a>
             </ul>
         </div>
     </nav>
@@ -44,11 +50,12 @@
             <li><a href="#About">About</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
-    <div class="main flex justify-center lg:h-full h-1/2 md:h-3/4" id="Home">
-        <div class="Iam pt-48">
-            <b class="Left-b">
+    <div class="main flex flex-col justify-center lg:h-full h-1/2 md:h-3/4 items-center" id="Home">
+        <div class="Iam">
+            <!-- <b class="Left-b">
                 <div class="innerIam">
                     printf("<br />
                     cout
@@ -57,17 +64,22 @@
                     &lt;h1&gt;<br />
                     echo "
                 </div>
-            </b>
-            <p>Hello World</p>
+            </b> -->
+            <p class="pr-3">This is    </p>
             <b class="Right-b">
                 <div class="innerIam">
-                    ");<br />
-                    ";<br />
-                    ")<br />
-                    &lt;/h1&gt;<br />
-                    "
+                    Abhinav Reddy<br />
+                    A Student<br />
+                    An Passionate developer<br />
+                    A friendly human being<br />
+                    An introvert :(
                 </div>
             </b>
+        </div>
+        <div class="mt-10 bg-[tomato] p-2 rounded hover:shadow-2xl hover:scale-110 ease-in duration-100">
+            <a target="_blank" href="https://drive.google.com/file/d/13gJZ21kGKIlfqEeWa2hHJ97icGZgP3cC/view?usp=sharing">
+                My Resume
+            </a>
         </div>
     </div>
     <div class="flex justify-center pt-10 border-box min-h-full items-center" id="About">
@@ -101,6 +113,24 @@
             My Work
         </h1>
         <div class="flex justify-center w-full items-center flex-wrap pt-10" id="ProjectList">
+        </div>
+    </div>
+    <div id="Contact" class="min-h-full w-full pt-10 text-center">
+        <h1 class="text-[#e74c3c] text-4xl font-semibold w-full">
+            Lets Connect
+        </h1>
+        <div class="h-[60vh]">
+            <ul class="min-h-full flex flex-col justify-center space-y-8">
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/AbhinavReddyBoddu"><i class='fab fa-linkedin'></i> /in/AbhinavReddyBoddu </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/Abhinavreddy-B"><i class='fab fa-github'></i> /Abhinavreddy-B </a>
+                </li>
+                <li>
+                    <a target="_blank" href="mailto:abhinavreddyboddu@gmail.com"><i class="fa-solid fa-envelope"></i> abhinavreddyboddu@gmail.com </a>
+                </li>
+            </ul>
         </div>
     </div>
 </body>

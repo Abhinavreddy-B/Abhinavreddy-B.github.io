@@ -156,7 +156,7 @@
  }
 
  #normal-nav {
-   background-image: linear-gradient(to bottom,rgb(227, 201, 198),#d6d6d600);
+   background-image: linear-gradient(to bottom,rgb(255, 223, 219),#d6d6d600);
     backdrop-filter: blur(2px);
     user-select: none;
     -moz-user-select: none;
