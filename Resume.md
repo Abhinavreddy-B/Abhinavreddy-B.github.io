@@ -7,6 +7,17 @@
 * CGPA(As of Yr II - sem I) 9.67/10.0
 
 ## ***Projects***:
+**Indoor Air Pollution monitor**
+* _MERN Stack_
+* a Full Stack application associated with a hardware IOT node to detect,display,alert users about the pollution levels
+* [Website](https://indoor-air-pollution-18.onrender.com/)*
+* Code: [Frontend](https://github.com/Abhinavreddy-B/ESW_Frontend) | [Backend](https://github.com/Abhinavreddy-B/ESW_backend)
+
+**Remotely accessible Tic Tac Toe Multiplayer**
+* _ReactJS , NodeJS , Tailwind , Socket Programming(socket.io)_
+* A Multiplayer Tic Tac Toe Game where people can connect remotely to a room.
+* [Website](https://tictactoemultiplayer.onrender.com/)*
+
 **C-Shell**
 * _C , Linux system calls_
 * [Code](https://github.com/Abhinavreddy-B/C-Shell)
@@ -24,16 +35,6 @@
 * Improved xv6 for custom Scheduling techinques, added system calls, added user programs
 * Analysing scheduling algorithms
 
-**Indoor Air Pollution Full Stack**
-* _MERN Stack_
-* a Full Stack application associated with a hardware IOT node to detect,display,alert users about the pollution levels
-* [Website](https://indoor-air-pollution-18.onrender.com/)*
-* Code: [Frontend](https://github.com/Abhinavreddy-B/ESW_Frontend) | [Backend](https://github.com/Abhinavreddy-B/ESW_backend)
-
-**Remotely accessible Tic Tac Toe Multiplayer**
-* _ReactJS , NodeJS , Tailwind , Socket Programming(socket.io)_
-* A Multiplayer Tic Tac Toe Game where people can connect remotely to a room.
-* [Website](https://tictactoemultiplayer.onrender.com/)*
 
 ## ***Skills***:
 * C/C++
