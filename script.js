@@ -38,7 +38,7 @@ Project = [
         }
     },
     {
-        img: 'indoor-air-polln.png',
+        img: 'XV-6.png',
         content: {
             Heading: 'Advanced XV-6',
             description: `An improved version of MIT's Unix based educational operating system XV-6
@@ -48,7 +48,7 @@ Project = [
         }
     },
     {
-        img:        'indoor-air-polln.png',
+        img:        'C-Shell.png',
         content: {
             Heading: 'Custom C Shell',
             description: 'Bash Inspired CLI written in C with Support for process management, piping/redirection and System commands.',
@@ -57,7 +57,7 @@ Project = [
         }
     },
     {
-        img:        'indoor-air-polln.png',
+        img:        'IPL.png',
         content: {
             Heading: 'IPL Miniworld Database & CLI',
             description: 'CLI Software for database management of IPL miniworld with proper entities, relations and functional requirements',
