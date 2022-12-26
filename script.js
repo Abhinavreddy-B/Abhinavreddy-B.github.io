@@ -20,7 +20,7 @@ Project = [
             description: `a full stack application That records data from a physical node 
                         and visualises it onto a dashboard`,
             Used:       'MERN Stack | Tailwind CSS',
-            Website:    'http://tictactoemultiplayer.onrender.com',
+            Website:    'http://indoor-air-pollution-18.onrender.com',
             Code: {
                 frontend:   'https://github.com/Abhinavreddy-B/ESW_Frontend',
                 backend:    'https://github.com/Abhinavreddy-B/ESW_backend'
@@ -34,7 +34,7 @@ Project = [
             description: `A Remotely playable tic tac toe , where any 2 people accross the globe 
             can come live and play the game online`,
             Used: 'ReactJS | NodeJS | Tailwind | Socket Programming(socket.io)',
-            Website: 'http://indoor-air-pollution-18.onrender.com',
+            Website: 'http://tictactoemultiplayer.onrender.com',
         }
     },
     {
