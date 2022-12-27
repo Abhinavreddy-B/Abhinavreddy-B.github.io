@@ -2,7 +2,7 @@
 
 ## ***Education***:
 **IIIT Hyderabad**
-* Expected Graduation: 2023
+* Expected Graduation: 2025
 * *B. Tech. in Computer Science Engineering*
 * CGPA(As of Yr II - sem I) 9.67/10.0
 
