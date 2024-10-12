@@ -177,33 +177,40 @@
         </div>
 
         <div class="row skills-content">
-
-          <div class="col-lg-4" data-aos="fade-up">
-            <h3>Languages & Databases</h3>
+          <div class="col-lg-3" data-aos="fade-up">
+            <h3>Languages</h3>
             <div class="skill">C/C++</div>
             <div class="skill">Python</div>
             <div class="skill">Javascript</div>
+            <div class="skill">Typescript</div>
             <div class="skill">Java</div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up">
+            <h3>Databases</h3>
             <div class="skill">MySQL</div>
             <div class="skill">MongoDB</div>
             <div class="skill">MinIO</div>
+            <div class="skill">Apache Kafka</div>
+            <div class="skill">Azure Eventhub</div>
           </div>
-          <div class="col-lg-5" data-aos="fade-up">
-            <h3>Frameworks/Libraries</h3>
+          <div class="col-lg-3" data-aos="fade-up">
+            <h3>Frameworks</h3>
             <div class="skill">React</div>
             <div class="skill">React‐Native</div>
             <div class="skill">Express JS</div>
             <div class="skill">CSS frameworks</div>
             <div class="skill">Flask</div>
             <div class="skill">FastAPI</div>
+            <div class="skill">PyQT</div>
           </div>
           <div class="col-lg-3" data-aos="fade-up">
             <h3>Other tools</h3>
             <div class="skill">Dockerization</div>
-            <div class="skill">configuring NGINX</div>
+            <div class="skill">NGINX</div>
             <div class="skill">server management (ssl, daemons)</div>
             <div class="skill">Bash scripting</div>
             <div class="skill">Git</div>
+            <div class="skill">Jenkins</div>
           </div>
         </div>
       </div>
@@ -224,7 +231,7 @@
               <h4>B.TECH. in Computer Science Engineering</h4>
               <h5>2021 ‐ 2025</h5>
               <p><em>International Institute of Information Technology, Hyderabad</em></p>
-              <p>CGPA : 9.63/10(as Of 5th Sem)</p>
+              <p>CGPA : 9.46/10(as Of 5th Sem)</p>
               <p><strong>Coursework</strong></p>
               <ul>
                 <li>Data Structures and Algorithms</li>
@@ -234,6 +241,7 @@
                 <li>Data and Applications</li>
                 <li>Design and Analysis of Software Systems</li>
                 <li>Software Engineering</li>
+                <li>Data Analytics</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -255,19 +263,22 @@
               <h4>SWE Intern</h4>
               <h5>May 2024 - july 2024</h5>
               <p><strong>MotorQ </strong></p>
-              <p>Upcoming SWE Intern at MotorQ</p>
+              <p><em>Typescript, PostgreSQL, nodejs, Apache Kafka, Azure Eventhub, Kubernetes</em></p>
+              <ul>
+                <li>Converted company's main code into a mono-repo and enhanced build and test pipelines with Turbo-repo tooling, improving code management and deployment efficiency.</li>
+                <li>Built a JS Library to abstract interaction with Apache Kafka and Eventhub, streamlining data processing and integration</li>
+                <li>Modeled one of the core data processing logic as a state machine using xstate, enhancing system reliability and maintainability</li>
+              </ul>
             </div>
             <div class="resume-item">
               <h4>Foundation Engineer Intern</h4>
               <h5>March 2023 ‐ Present</h5>
-              <p><strong>Stealth Startup </strong></p>
-              <p><em>MongoDB, MySQL, Node JS, FastAPI, Docker, NGINX, MinIO</em></p>
+              <p><strong>Voxverse Tech PVT LTD</strong></p>
+              <p><em>JavaScript, MongoDB, Docker, Nginx, Production Server Handling, flask, fastAPI</em></p>
               <ul>
-                <li>Wrote FastAPI wrappers for various models related to Automatic speech recognition,
-                  Machine translation, Text to speech</li>
-                <li>Dockerization of these models, NGINX setup and deployment on servers</li>
-                <li>Designed and build concrete scalable backend in NodeJS for running configurable pipeline constituting above models.</li>
-                <li>Built backend for an annotation tool (transcribe and transcript verification). Supported 700+ concurrent users without performance issues</li>
+                <li>Created FastAPI wrappers for various models related to Automatic Speech Recognition, Machine Translation, and Text-to-Speech, and Dockerized these models. Set up NGINX and deployed them on servers, ensuring seamless model integration and deployment.</li>
+                <li>Designed and built a scalable backend in NodeJS for running a configurable pipeline of the above models, which enhanced system scalability and flexibility.</li>
+                <li>Built backend for an annotation tool (transcribe and transcript verification). Supported 700+ concurrent users without performance issues.</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -293,12 +304,71 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
+              <img src="assets/img/projects/instacommerce.png" class="img-fluid" alt="">
+              <div class="portfolio-description">
+                <p><strong>Instacommerce</strong></p>
+                <p>Worked as a team of 5 to develop a microservice-based e-commerce platform with custom-built autoscaler, registry, health checker, and load balancer, managing services for users, products, orders, payments, carts, shipping, notifications, reviews, and sellers.</p>
+                <p><i>Javascript, ReactJS, ExpressJS, MongoDB, Stripe</i></p>
+                <p><a target="_blank" href="https://github.com/SE-Project-3-Team-18/InstaCommerce">Code</a></p>
+              </div>
+              <div class="portfolio-links" >
+                <div class="portfolio-plus-wrapper">+</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/instacommerce.png" class="img-fluid" alt="">
+              <div class="portfolio-description">
+                <p><strong>prodigeni-books</strong></p>
+                <p>
+                  worked as a team of 5 to enhance an existing books management application by solving techinical depts, solving bugs, adding features:
+
+                  <ul>
+                    <li>
+                      Developed a common library feature where users can contribute, rate, and filter books based on various criteria such as author, genre, and rating.
+                    </li>
+                    <li>
+                      Integrated Spotify and iTunes APIs to allow users to search for audiobooks and podcasts, save favorites, and view content through dynamic string representation.
+                    </li>
+                  </ul>
+
+                </p>
+                <p><i>Java, Angular, Spotify & iTunes API Integration</i></p>
+                <p><a target="_blank" href="https://github.com/serc-courses/se-project-1--_18">Code</a></p>
+              </div>
+              <div class="portfolio-links" >
+                <div class="portfolio-plus-wrapper">+</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
               <img src="assets/img/projects/Greddit.png" class="img-fluid" alt="">
               <div class="portfolio-description">
                 <p><strong>GReddit</strong></p>
                 <p>A complete full stack application having a subset of Reddit’s functionaity, including but not limited to Live Chat, infinite scrolling, etc.</p>
                 <p><i>MongoDB, React, NodeJS, Express JS, Docker, NGINX</i></p>
                 <p><a target="_blank" href="https://guileless-kringle-c68d07.netlify.app/profile">Website</a> | <a target="_blank" href="https://github.com/Abhinavreddy-B/Reddit-Docker">Source Code</a></p>
+              </div>
+              <div class="portfolio-links" >
+                <div class="portfolio-plus-wrapper">+</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/waveform-wizard.png" class="img-fluid" alt="">
+              <div class="portfolio-description">
+                <p><strong>Waveform-Wizard</strong></p>
+                <p>
+                  A multiplatform application to analyse speech signals
+                </p>
+                <p><i>Python, PyQT5, GH Actions</i></p>
+                <p><a target="_blank" href="https://github.com/Abhinavreddy-B/Waveform-Wizard-2">Code</a> | <a target="_blank" href="https://github.com/Abhinavreddy-B/Waveform-Wizard-2/releases">Release</a></p>
               </div>
               <div class="portfolio-links" >
                 <div class="portfolio-plus-wrapper">+</div>
@@ -460,7 +530,7 @@
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up">
                 <p>
-                  <strong> Dean’s List 1 (x3) </strong>
+                  <strong> Dean’s List 1 (x4) </strong>
                   <br>
                   Got awarded the highest academic honour for being in the top 5% of the batch
                 </p>
