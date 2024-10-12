@@ -580,6 +580,11 @@ section {
   z-index: 1;
   border-radius: 5px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.portfolio .portfolio-wrap .portfolio-description {
+  text-align: left;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -606,12 +611,11 @@ section {
   max-height: 0px;
   overflow-y: hidden;
   transition: all ease-in-out 0.5s;
-  padding: 0px;
+  margin: 10px;
 }
 
 .portfolio-wrap.active .portfolio-description {
   max-height: 500px;
-  padding: 10px;
 }
 
 .portfolio-plus-wrapper {
